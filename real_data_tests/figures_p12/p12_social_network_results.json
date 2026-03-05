@@ -1,0 +1,50 @@
+{
+  "paper": "P12 \u2014 GNN for Student Social Support Network Analysis",
+  "real_data_source": "Stanford SNAP (Social Network Analysis Project)",
+  "citation": "J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS 2012.",
+  "method": "Label propagation community detection + social support scoring",
+  "results": {
+    "ego_facebook": {
+      "source": "https://snap.stanford.edu/data/facebook_combined.txt.gz",
+      "n_nodes": 4039,
+      "n_edges": 88234,
+      "avg_degree": 43.69101262688784,
+      "max_degree": 1045.0,
+      "mean_clustering_coeff": 0.6312653060942655,
+      "n_communities_detected": 63,
+      "largest_community_size": 479,
+      "graph_density": 0.010819963503439287,
+      "isolated_low_degree_nodes": 75,
+      "low_support_nodes_pct": 4.283238425352811,
+      "mean_support_score": 0.19306335227060764,
+      "top_hub_nodes": [
+        {
+          "node": 135,
+          "score": 0.30123823675086675
+        },
+        {
+          "node": 309,
+          "score": 0.30123823675086675
+        },
+        {
+          "node": 78,
+          "score": 0.3011144130757801
+        },
+        {
+          "node": 195,
+          "score": 0.3011144130757801
+        },
+        {
+          "node": 218,
+          "score": 0.3011144130757801
+        }
+      ],
+      "degree_distribution_percentiles": {
+        "p25": 11.0,
+        "p50": 25.0,
+        "p75": 57.0,
+        "p95": 153.0999999999999
+      }
+    }
+  }
+}
